@@ -1,0 +1,195 @@
+*{
+    padding : 0;
+    margin : 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.test{
+    background: cover;
+    height: 500px;
+}
+.card-img-top{
+    width: 100px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.banner{
+    background: url(/images/hihi.jpg);
+    width: 100%;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow:fixed;
+}
+.banner-content{
+    margin: 10px;
+    color: #fff;
+    width: 55%;
+    margin-bottom: 80px;
+    margin-left: 200px;
+    background: #fff;
+    height: 40vh;
+    width: auto;
+    border-radius: 3%;
+    opacity: 0%;
+    z-index: 999999;
+    margin-top: 50px;
+ 
+    
+
+}
+.banner-content{
+    transition: 1s;
+    opacity: 90%;
+}
+.banner-content span{
+display: flex;
+justify-content: center;
+font-size: 18px;
+font-weight:600;
+letter-spacing: 3px;
+text-align: center;
+color: coral;
+
+}
+.banner-content h2{
+display: flex;
+justify-content: center;
+margin-bottom: 10px;
+font-size: 60px;
+font-weight: 600;
+letter-spacing: 3px;
+font-family: 'Times New Roman', Times, serif;
+color: black;
+}
+.banner-content p{
+    margin-bottom: 40px;
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-family:italic;
+    color: black;
+    text-indent: 15px;
+}
+.banner-content a{
+   text-decoration: none;
+   margin-right: 20px;
+}
+.banner-content .btn-one{
+    background: black;
+    padding: 15px 30px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    font-size:18px ;
+    font-weight: 600;
+    font-style: italic;
+    color: #fff;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 150px;
+    
+}
+.banner-content .btn-two{
+    padding: 12px 17px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 20px;
+    font-size:18px ;
+    font-weight: 600;
+    font-style: italic;
+    color: #000;
+    
+}
+.banner-content .btn-one:hover{
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+    transition: 1s;
+   
+    
+}
+.banner-content .btn-two:hover{
+    background-color: #000;
+    border: 2px solid #fff;
+    color: #fff;
+    transition: 1s;
+   
+    
+}
+.contact{
+margin-top: 50px;
+ display: flex;
+ justify-content: center;
+ padding: 5px;
+}
+.contact tr,th,td{
+   border: 1px solid black;
+    padding: 5px;
+    height: 10vh;
+}
+footer{
+    height: 5vh;
+    text-align: center;
+    margin-top: 100px;
+   
+}
+.col-3{
+    width: 18rem;
+    box-shadow: 0px 30px 10px -20px rgba(0, 0, 0, 0.75);
+    transition: .3s;
+    filter: blur(2px);
+
+}
+.col-3:hover{
+    box-shadow: 0px 80px 10px -40px rgba(0, 0, 0, 0.15);
+    margin-top: 30px;
+    filter: blur(0)
+}
+.row{
+    justify-content: center;
+}
+.history{
+    display: flex;
+    justify-content: center;
+
+}
+.text{
+    float: left;
+    text-align: center;
+    margin:10px;
+}
+.images{
+   
+    margin-left: 10px;
+    margin-top: 10px;
+    
+    
+}
+.card-img-top{
+    box-shadow: 0px 30px 10px -10px rgba(0, 0, 0, 0.75);
+    transition: .3s;
+}
+.card-img-top:hover{
+    box-shadow: 0px 80px 10px -40px rgba(0, 0, 0, 0.15);
+    margin-top: 30px;
+}
+.form{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+     background: skyblue;
+    background-repeat: no-repeat;
+     background-size: cover;
+     height: 55vh;
+     text-align: center;
+}
+.myform{
+    margin-top: 30px;
+}
+.privacy,h1,p{
+    text-align: center;
+}

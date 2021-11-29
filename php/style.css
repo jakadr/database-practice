@@ -1,0 +1,18 @@
+
+body{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+td{
+    text-align: center;
+}
+h1{
+    margin-bottom: 5px;
+    text-align: center;
+    margin-top: 10px;
+}
+table{
+  box-shadow: 3px 2px 4px black;
+}
